@@ -1,0 +1,64 @@
+.user {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    flex-shrink: 0;
+}
+
+.user-avatar-box {
+    padding: 0 15px 0 13px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.user-avatar-icon {
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+}
+
+.user-info {
+    flex: 1;
+    border-top: 1px solid #e9edef;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding-right: 15px;
+
+}
+
+.user-info-detail {
+    display: flex;
+    text-align: left;
+}
+
+.user-info-phone {
+    flex: 1;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #111b21;
+}
+
+.user-info-time {
+    margin-top: 3px;
+    margin-left: 6px;
+    font-size: 12px;
+    color: #667781;
+}
+
+.user-info-lastmessage {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    min-height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #667781;
+}

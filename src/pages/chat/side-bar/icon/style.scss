@@ -1,0 +1,57 @@
+.icon {
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f0f2f5;
+    position: relative;
+    height: 59px;
+    box-sizing: border-box;
+}
+
+.icon-avatar-box {
+    flex-grow: 1;
+}
+
+.icon-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: initial;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.icon-avatar-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.icon-link {
+    font: inherit;
+    font-size: 100%;
+    vertical-align: initial;
+    display: flex;
+    align-items: center;
+}
+
+.icon-link-box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.icon-color {
+    color: #54656f;
+}

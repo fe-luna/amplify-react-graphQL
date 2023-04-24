@@ -1,0 +1,96 @@
+.personal-info-name {
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(11, 20, 26, 0.08);
+    margin-bottom: 10px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.personal-info-name-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    color: #008069;
+    line-height: 1.2;
+    font-size: 0.875rem;
+    font-weight: normal
+}
+
+.personal-info-name-value {
+    display: flex;
+    align-items: flex-start;
+}
+
+.personal-info-name-value-value {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    flex: 1;
+    min-height: 20px;
+    user-select: text;
+}
+
+.personal-info-name-input {
+    outline: none;
+    border: none;
+    color: #3b4a54;
+    font-size: 17px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.personal-info-name-value-arrow {
+    color: #8696a0;
+    padding-top: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.personal-info-name-edit-focus {
+    border-bottom: 2px solid #00a884;
+}
+
+.personal-info-name-edit-blur {
+    border-bottom: 2px solid #667781;
+
+}
+
+.personal-info-icons {
+    display: flex;
+    // align-items: center;
+    color: #8696a0;
+    position: relative;
+}
+
+.personal-info-icons-len-exp {
+    display: flex;
+    padding-top: 8px;
+}
+
+.personal-info-name-len {
+    margin-right: 8px;
+    margin-left: 5px;
+    color: #d1d7db;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.personal-info-icons-expression {
+    margin-right: 3px;
+}
+
+.personal-info-icons-checkmark-box {
+    position: relative;
+    padding-top: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.personal-info-icons-checkmark {
+    position: absolute;
+    top: 6px;
+}

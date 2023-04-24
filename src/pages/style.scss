@@ -1,0 +1,38 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: #eae6df;
+    background-image: linear-gradient(180deg, #eae6df, #d1d7db);
+
+    &:after {
+        position: fixed;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+        height: 127px;
+        content: "";
+        background-color: #00a884;
+    }
+
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+// .pages {
+//     width: 100%;
+//     height: 100%;
+//     position: relative;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }

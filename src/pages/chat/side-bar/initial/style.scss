@@ -1,0 +1,12 @@
+.side-bar-initial {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar-initial-userList {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: scroll;
+}

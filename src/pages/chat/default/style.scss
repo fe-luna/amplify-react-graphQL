@@ -1,0 +1,31 @@
+.default {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-left: 1px solid #e9edef;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+    flex-direction: column;
+}
+
+.default-title {
+    display: inline-flex;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 37.5px;
+    margin-top: 40px;
+    color: #41525d;
+}
+
+.default-text {
+    margin-top: 16px;
+}
+
+img {
+    border-radius: 0;
+}
